@@ -3,7 +3,7 @@
 > Live-state editor for **Suzerain** by Torpor Games. Read and write any of the game's 400+ Lua variables while you play. Cross-platform native — Linux + Windows. Built in C++20 with Qt6.
 
 <p align="center">
-  <img src="resources/demo.gif" alt="WolknerProtocol demo" width="700">
+  <img src="resources/icons/serge.png" alt="Serge Wolkner" width="160">
 </p>
 
 <p align="center">
@@ -17,6 +17,10 @@
 A native desktop tool that attaches to a running `Suzerain.exe` process, walks its IL2CPP heap to discover the live Lua variable table, and lets you read or rewrite any value through a polished GUI. No save-file editing, no game restarts — values change in real time, both directions.
 
 It is **not** a generic memory scanner. The tool understands Suzerain's data model (PixelCrushers Dialogue System on a custom Lua VM) and follows the actual indirection chain the game uses, so values stay accurate even when Suzerain swaps out the underlying objects mid-play.
+
+<p align="center">
+  <img src="resources/demo.gif" alt="WolknerProtocol demo" width="900">
+</p>
 
 ## Features
 
