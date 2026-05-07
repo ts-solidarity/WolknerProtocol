@@ -3,7 +3,7 @@
 > Live-state editor for **Suzerain** by Torpor Games. Read and write any of the game's 400+ Lua variables while you play. Cross-platform native — Linux + Windows. Built in C++20 with Qt6.
 
 <p align="center">
-  <img src="resources/icons/serge.png" alt="Serge Wolkner" width="160">
+  <img src="resources/demo.gif" alt="WolknerProtocol demo" width="700">
 </p>
 
 <p align="center">
