@@ -1,0 +1,45 @@
+# Build directories
+build/
+build-*/
+out/
+
+# CMake artifacts
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+*.cmake.in
+
+# Distribution outputs (released as binary assets, not committed)
+dist-win/
+
+# Compiled artefacts
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+*.dylib
+*.exp
+*.ilk
+*.pdb
+*.res
+
+# IDE / editor
+.vscode/
+.idea/
+*.user
+*.suo
+*.swp
+*~
+.DS_Store
+
+# Qt
+*_autogen/
+qrc_*.cpp
+moc_*.cpp
+ui_*.h
+aqtinstall.log
